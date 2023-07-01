@@ -2,23 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
+    font-family: 'Paytone One', sans-serif;
   }
   :root{
       --bg-color: #fff;
       --text-color: #22134;
       --second-color: #5a7184;
       --main-color: #6e54fa;
-      --big-font: 6rem;
+      --big-font: 5rem;
       --h2-font: 3rem;
       --p-font: 1.1rem;
   }
   body{
-    background: var(--bg-color);
     color: var(--text-color);
+    background: url(newbackground.jpg);
   }
   header{
     postion: fixed;
@@ -31,19 +31,19 @@
     justify-content: space-between;
     background: transparent;
     padding: 30px 18%;
-    trasition: ease .40s
+    trasition: ease .40s;
   }
   #logo{
     font-size: 35px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--text-color);
+    color: var(--bg-color);
   }
   #navbar{
     display: flex;
   }
   #navbar a{
-    color: var(--text-color);
+    color: var(--bg-color);
     font-size: var(--p-font);
     font-weight: 500;
     padding: 10px 22px;
@@ -62,4 +62,38 @@
     z-index: 10001;
     cursor: pointer;
     display: none;
+  }
+  section{
+    padding: 40px 10%;
+  }
+  #hometext{
+    font-family: 'Ysabeau Infant', sans-serif;
+    position: relative;
+    top: 30px;
+  }
+  #hometext h1{
+    font-size: var(--big-font);
+    line-height: 1.2;
+    color: var(--bg-color);
+    margin-bottom: 20px;
+  }
+  #hometext p{
+    color: #332E30;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 50px;
+  }
+  #home-btn{
+    display: inline-block;
+    font-size: 16px;
+    color: var(--main-color);
+    padding: 15px 30px;
+    background: #ffffffbf;
+    border-radius: 10px;
+    transition: ease 0.40s;
+  }
+  #home-btn:hover{
+    background: var(--bg-color);
+    transform: scale(1.1);
   }
