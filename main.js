@@ -3,6 +3,8 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
-document.querySelector('he').innerHTML = ``
+const header = document.querySelector('header');
 
-setupCounter(document.querySelector('#counter'))
+window.addEventListener ("Scroll", function() {
+    header.classList.toggle('sticky', window.scrollY > 0)
+})

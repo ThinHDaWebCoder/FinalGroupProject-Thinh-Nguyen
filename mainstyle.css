@@ -17,10 +17,10 @@
   }
   body{
     color: var(--text-color);
-    background: url(newbackground.jpg);
+    background: var(--bg-color);
   }
   header{
-    postion: fixed;
+    position: fixed;
     top: 0;
     right: 0;
     width: 64%;
@@ -55,7 +55,7 @@
     color: var(--text-color);
     box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
     border-radius: 10px;
-  }
+  } 
   #menu-icon{
     color: var(--text-color);
     font-size: 35px;
@@ -66,9 +66,17 @@
   section{
     padding: 40px 10%;
   }
+  #home{
+    height: 665px;
+    background: url(newbackground.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;;
+  }
   #hometext{
     position: relative;
-    top: 30px;
+    bottom: 10px;
   }
   #hometext h1{
     font-size: var(--big-font);
@@ -99,4 +107,9 @@
   #home-btn:hover{  
     background: var(--bg-color);
     transform: scale(1.1);
+  }
+  #servicetext{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
   }
