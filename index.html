@@ -24,6 +24,7 @@
           <li><a href="#" onclick="renderPackage()">Package</a></li>
           <li><a href="#" onclick="renderDestination()">Destination</a></li>
           <li><a href="#" onclick="renderFooter()">Contact</a></li>
+          <li><a href="#" onclick="renderInputBox()">Log In</a></li>
         </ul>
       </header>
       <!-- Home section -->
@@ -35,6 +36,43 @@
           <a href="#" id="home-btn">Let's travel</a>
         </div>
       </section>
+      <!-- <div id="inputbox">
+        <h1>Log In & Sign Up</h1>
+        <div id="form_content_container">
+          <div id="form_content_inner_container">
+            <div id="inpts">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" id="full_name" placeholder="Full name">
+            </div>
+            <div id="inpts">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" id="email" placeholder="Email">
+            </div>
+            <div id="inpts">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" id="password" placeholder="Password">
+            </div>
+            <div id="inpts">
+              <i class="fa-solid fa-key"></i>
+              <input type="password" id="copassword" placeholder="Confirm Password">
+            </div>
+          </div>
+        </div>
+        <div id="button_container">
+          <button onclick="login()">Login</button>
+          <button onclick="register()">Register</button>
+          <button onclick="back()">Return</button>
+        </div>
+      </div> -->
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <!-- Our script must be loaded after firebase references -->
       <script src="https://kit.fontawesome.com/9b6106a30d.js" crossorigin="anonymous"></script>
       <script src="travelwebsitejs.js"></script>
       <script src="/main.js"></script>

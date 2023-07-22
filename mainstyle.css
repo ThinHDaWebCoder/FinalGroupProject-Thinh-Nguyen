@@ -296,3 +296,46 @@
           width: 50%;
         }
       }
+      #inputbox h1{
+        font-family: 'Paytone One', sans-serif;
+        font-size: 40px;
+      }
+      #inputbox{
+        background: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 500px;
+        margin-left: 350px;
+        animation: homeTransition 1s;
+      }
+      #form_content_container{
+        margin: 40px;
+        height: 20%;
+      }
+      #inpts input{
+        height: 30px;
+        width: 150px;
+        border-radius: 10px;
+      }
+      #inpts i{
+        font-size: 23px;
+      }
+      #button_container{
+        margin-top: 20px;
+      }
+      #button_container button{
+        height: 30px;
+        width: 100px;
+        background: transparent;
+        border-radius: 10px;
+        transition: ease .40s;
+      }
+      #button_container button:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease .40s;
+      }
